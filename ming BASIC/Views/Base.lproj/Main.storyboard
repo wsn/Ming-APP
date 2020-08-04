@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yJe-rc-VDj">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="ming_BASIC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6vC-qg-0eK">
+                                <rect key="frame" x="57" y="372.5" width="300" height="60"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="xCd-7j-aTo"/>
+                                    <constraint firstAttribute="width" constant="300" id="xyB-c2-V43"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="学习">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="zl8-2K-Aoj" kind="show" id="i3O-Kd-caM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bKE-GX-2GF">
+                                <rect key="frame" x="57" y="472.5" width="300" height="60"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="gYb-8I-sop"/>
+                                    <constraint firstAttribute="width" constant="300" id="sg2-I7-wee"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="练习">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="flQ-yf-kH6" kind="show" id="Mcs-dC-spt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tzw-0F-5xo">
+                                <rect key="frame" x="57" y="572.5" width="300" height="60"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="1gh-a3-sA9"/>
+                                    <constraint firstAttribute="width" constant="300" id="b1v-Rp-Gm7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="评估">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="b2T-y4-YvD" kind="show" id="fCL-TZ-yig"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ma-79-nOY">
+                                <rect key="frame" x="57" y="180" width="300" height="142.5"/>
+                                <accessibility key="accessibilityConfiguration" label="Introduction"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="1CQ-K6-BrM"/>
+                                </constraints>
+                                <string key="text">欢迎使用ming。
+
+这是一款通过语音交互和机器学习技术，方便你学习汉字并练习书写汉字的软件。这是一款通过语音交互和机器学习技术，方便你学习汉字并练习书写汉字的软件。</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6vC-qg-0eK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4QJ-gD-HrT"/>
+                            <constraint firstItem="tzw-0F-5xo" firstAttribute="top" secondItem="bKE-GX-2GF" secondAttribute="bottom" constant="40" id="Otk-fZ-pHr"/>
+                            <constraint firstItem="6vC-qg-0eK" firstAttribute="top" secondItem="1ma-79-nOY" secondAttribute="bottom" constant="50" id="RrG-Lc-jgl"/>
+                            <constraint firstItem="bKE-GX-2GF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZV6-LJ-46t"/>
+                            <constraint firstItem="tzw-0F-5xo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZxL-sH-yzF"/>
+                            <constraint firstItem="1ma-79-nOY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="h2c-Vm-NWh"/>
+                            <constraint firstItem="bKE-GX-2GF" firstAttribute="top" secondItem="6vC-qg-0eK" secondAttribute="bottom" constant="40" id="oVX-4t-TAP"/>
+                            <constraint firstItem="1ma-79-nOY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wew-lz-UeR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="mEn-CH-oaP">
+                        <barButtonItem key="backBarButtonItem" title="回到主页" id="Pww-AC-OeG"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="LearnPageButton" destination="6vC-qg-0eK" id="uGg-9z-8hf"/>
+                        <outlet property="evaluatePageButton" destination="tzw-0F-5xo" id="7br-ds-Y4n"/>
+                        <outlet property="introductionText" destination="1ma-79-nOY" id="blT-rt-9p1"/>
+                        <outlet property="learnPageButton" destination="6vC-qg-0eK" id="0Ev-9Z-NVX"/>
+                        <outlet property="practicePageButton" destination="bKE-GX-2GF" id="rpx-zu-0yJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="118.52678571428571"/>
+        </scene>
+        <!--Practice View Controller-->
+        <scene sceneID="z6L-Fy-xaF">
+            <objects>
+                <viewController id="flQ-yf-kH6" customClass="PracticeViewController" customModule="ming_BASIC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ANH-aT-SjV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Rmz-b7-dAM"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="EFh-NG-ed3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ydc-fv-lig" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1993" y="119"/>
+        </scene>
+        <!--Evaluate View Controller-->
+        <scene sceneID="FGW-EM-udR">
+            <objects>
+                <viewController id="b2T-y4-YvD" customClass="EvaluateViewController" customModule="ming_BASIC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DbY-JU-hrR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="MOw-Yn-rn2"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oj0-gy-tJD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q8q-fC-NLe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1993" y="911"/>
+        </scene>
+        <!--Learn View Controller-->
+        <scene sceneID="F8E-0r-V81">
+            <objects>
+                <viewController id="zl8-2K-Aoj" customClass="LearnViewController" customModule="ming_BASIC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FMe-Mm-uG9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ezh-RV-w9w"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0q3-hj-f6o"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RBe-tg-cbd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1993" y="-646"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1Y8-Ra-QyC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yJe-rc-VDj" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="jcb-Du-wOi">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="yGp-gP-WPV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bbM-WX-ZXw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="118.52678571428571"/>
+        </scene>
+    </scenes>
+</document>
