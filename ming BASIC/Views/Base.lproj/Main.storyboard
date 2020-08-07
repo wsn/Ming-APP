@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6vC-qg-0eK">
-                                <rect key="frame" x="57" y="372.5" width="300" height="60"/>
+                                <rect key="frame" x="57" y="331.5" width="300" height="60"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="xCd-7j-aTo"/>
@@ -31,7 +31,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bKE-GX-2GF">
-                                <rect key="frame" x="57" y="472.5" width="300" height="60"/>
+                                <rect key="frame" x="57" y="431.5" width="300" height="60"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="gYb-8I-sop"/>
@@ -46,7 +46,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tzw-0F-5xo">
-                                <rect key="frame" x="57" y="572.5" width="300" height="60"/>
+                                <rect key="frame" x="57" y="531.5" width="300" height="60"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="1gh-a3-sA9"/>
@@ -61,14 +61,14 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ma-79-nOY">
-                                <rect key="frame" x="57" y="180" width="300" height="142.5"/>
+                                <rect key="frame" x="57" y="180" width="300" height="101.5"/>
                                 <accessibility key="accessibilityConfiguration" label="Introduction"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="1CQ-K6-BrM"/>
                                 </constraints>
                                 <string key="text">欢迎使用ming。
 
-这是一款通过语音交互和机器学习技术，方便你学习汉字并练习书写汉字的软件。这是一款通过语音交互和机器学习技术，方便你学习汉字并练习书写汉字的软件。</string>
+这是一款通过语音交互和机器学习技术，方便你学习汉字并练习书写汉字的软件。(在这里显示简介）</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
