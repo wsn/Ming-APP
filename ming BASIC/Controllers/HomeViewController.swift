@@ -17,7 +17,7 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "主页"
+        title = "主页" //这是返回键上的默认文字
         learnPageButton.layer.cornerRadius = 15.0
         practicePageButton.layer.cornerRadius = 15.0
         evaluatePageButton.layer.cornerRadius = 15.0
