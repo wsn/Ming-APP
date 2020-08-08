@@ -125,14 +125,35 @@
                     <view key="view" contentMode="scaleToFill" id="DbY-JU-hrR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RL5-Pf-Om1">
+                                <rect key="frame" x="0.0" y="140" width="414" height="756"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="RL5-Pf-Om1" firstAttribute="leading" secondItem="MOw-Yn-rn2" secondAttribute="leading" id="b60-jL-8cJ"/>
+                            <constraint firstAttribute="bottom" secondItem="RL5-Pf-Om1" secondAttribute="bottom" id="bMs-JN-8pK"/>
+                            <constraint firstItem="RL5-Pf-Om1" firstAttribute="top" secondItem="MOw-Yn-rn2" secondAttribute="top" id="der-Gj-RDu"/>
+                            <constraint firstItem="RL5-Pf-Om1" firstAttribute="trailing" secondItem="MOw-Yn-rn2" secondAttribute="trailing" id="lNb-4j-bCl"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="MOw-Yn-rn2"/>
                     </view>
-                    <navigationItem key="navigationItem" id="oj0-gy-tJD"/>
+                    <navigationItem key="navigationItem" id="oj0-gy-tJD">
+                        <nil key="title"/>
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="camera" id="U1B-4e-YQX">
+                            <connections>
+                                <action selector="cameraTapped:" destination="b2T-y4-YvD" id="OR6-8K-4S8"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="imageView" destination="RL5-Pf-Om1" id="EJZ-yf-fFW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q8q-fC-NLe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1993" y="911"/>
+            <point key="canvasLocation" x="1992.753623188406" y="910.71428571428567"/>
         </scene>
         <!--Learn View Controller-->
         <scene sceneID="F8E-0r-V81">
